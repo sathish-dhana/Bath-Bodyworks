@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Men's Fragrance | Bath & Body Works</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+       
+    <style>
+       
+        #content{
+            display: flex;
+        }
+        #leftbox{
+            width: 16%;
+            height: 800px;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            padding-left: 100px;
+            color: grey;
+        }
+        #leftbox p{
+            margin: 23px 0px 0px 0px;
+        }
+        #head{
+            font-weight: bold;
+            color: black;
+        }
+        #leftbox p:hover{
+            color: #4D88BD;
+            cursor: pointer;
+        }
+        #rightbox{
+            width: 71%;
+        }
+        #righthead{
+            height: 60px;
+            display: flex;
+            border-bottom: 1px solid black;
+            justify-content:space-between;
+        }
+        #righthead>h2{
+            font-family: 'Titillium Web', sans-serif;
+            margin-top: 10px;
+            font-size: 24px
+        }
+        .num{
+            height: 33px;
+            line-height: 33px;
+            text-align: center;
+            width: 33px;
+            border-radius: 50%;
+            margin-top: 12px;
+        }
+        #rightend{
+            display: flex;
+        }
+        span {
+            display: inline-block;
+            vertical-align: middle;
+            line-height: normal;
+            font-size: 15px;
+        }
+        #qty{
+            margin: 20px 10px 0px 20px;
+            color: grey;
+        }
+        .num:hover{
+            background-color: rgb(207, 204, 204);
+            cursor: pointer;
+            font-weight: bold;
+        }
+        #container{
+            display: grid;
+            width: 100%;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: 550px;
+            /* border: 1px solid black; */
+            grid-gap: 20px;
+            margin-top: 30px;
+        }
+        /* .product{
+           background-color: grey;
+        } */
+        #top{
+            width: 100%;
+            height: 340px;
+            /* border: 1px solid black; */
+            display: flex;
+            justify-content: center;
+        }
+        img{
+            width: 150px;
+            height: 340px;
+        }
+        #bottom{
+            width: 100%;
+            height: 110px;
+            /* border: 1px solid black; */
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        #bottom>h3{
+            margin-top: 5px;
+            margin-bottom: 5px;
+            font-size: 18px;
+        }
+        #disc{
+            color: #666666;
+            margin-top: 0px;
+            margin-bottom: 10px;
+            font-size: 13px;
+        }
+        #stText{
+            display: flex;
+            font-family: Arial, sans-serif;
+            justify-content: center;
+            
+        }
+        #strike{
+            color: #666666;
+            font-weight: 400;
+            text-decoration: line-through rgb(102, 102, 102);
+            font-size: 18px;
+            margin: 0px 5px 10px 0px;
+        }
+        #rate{
+            color: #cc0000;
+            font-size: 18px;
+            font-weight: bold;
+            margin: 0px 0px 10px 5px;
+        }
+        #stText ~ p {
+            color: #cc0000;
+            margin: 0px;
+            font-size: 12px;
+        }
+        #button{
+            height: 35px;
+            width: 90%;
+            background-color: rgb(51, 51, 51);
+            color: rgb(246, 246, 246);
+            border: 0px;
+            margin-top: 0px;
+            font-family: Arial, sans-serif;
+        }
+        #button:hover {
+            background-color:rgb(246, 246, 246);
+            color: rgb(51, 51, 51);
+            transition: 0.4s;
+        }
+        #bottom2{
+            width: 100%;
+            height: 85px;
+            /* border: 1px solid black; */
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        .star{
+            margin-top: 10px;
+            font-size: 8px;
+            color:rgb(231, 202, 128)
+        }
+        .checked{
+            color: orange;
+        }
+    </style>
+</head>
+<body>
+    <div id="content">
+        <div id="leftbox">
+            <h4 id="head" style="font-size: 14px;"> NEW & NOW </h4>
+            <p> New Arrivals </p>
+            <p> Aromatherapy Shop </p>
+            <p> Men's Shop </p>
+            <p> Get Inspired </p>   
+            <p> Shop By Fragrance </p>
+        </div>
+        <div id="rightbox">
+            <div id="righthead">
+                <h2>Men's Fragrance, Body Care & More </h2>
+                <div id="rightend">
+                    <div class="num">
+                        <span>1</span>
+                    </div>
+                    <div class="num">
+                        <span>2</span>
+                    </div>
+                    <div id="qty">
+                        <span>62 items</span>
+                    </div>
+                </div>
+            </div>
+            <div id="container">
+                <!-- <div class="product">
+                    <div id="top">
+                        <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.1ce/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw04bd9233/crop/026199991_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=q_s_">
+                    </div>
+                    <div id="bottom">
+                       <h3>Clean Slate</h3>
+                       <p id="disc"> 3-in-1 Hair, Face & Body Wash </p>
+                        <div id="stText">
+                            <h3 id="strike">$14.50</h3>
+                            <h3 id="rate">Now $3.62</h3>
+                        </div>
+                        <p>Mix & Match: Buy 3, Get 3 Free </p>
+                    </div>
+                    <div id="bottom2">
+                        <input id="button" type="button" value="ADD TO BAG">
+                        <div class="star">
+                            <span onclick="starmark(this)" class="fa fa-star fa-3x" id="1one"></span>
+                            <span onclick="starmark(this)" class="fa fa-star fa-3x" id="2one"></span>
+                            <span onclick="starmark(this)" class="fa fa-star fa-3x" id="3one"></span>
+                            <span onclick="starmark(this)" class="fa fa-star fa-3x" id="4one"></span>
+                            <span onclick="starmark(this)" class="fa fa-star fa-3x" id="5one"></span>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<script>
+    var data = [
+        {
+            img: "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.1ce/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw04bd9233/crop/026199991_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=q_s_",
+            name: "Clean State",
+            disc: "3-in-1 Hair, Face & Body Wash",
+            strikeoff: "$14.50",
+            rate: "Now $3.62",
+            p1: "Mix & Match: Buy 3, Get 3 Free",
+        },
+        {
+            img: "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.1cf/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw65c687f7/crop/026199993_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=q_s_",
+            name: "Clean State",
+            disc: "Ultra Shea Body Cream",
+            strikeoff: "$15.50",
+            rate: "Now $3.87",
+            p1: "",
+        },
+        {
+            img: "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.1cf/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw581d87ac/crop/026299194_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=q_s_",
+            name: "Stone",
+            disc: "Body Lotion",
+            strikeoff: "$13.50",
+            rate: "Now $3.37",
+            p1: "Mix & Match: Buy 3, Get 3 Free",
+        },
+        {
+            img: "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.1cf/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwce16f21a/crop/026353310_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=q_s_",
+            name: "Bourbon",
+            disc: "Body Lotion",
+            strikeoff: "$13.50",
+            rate: "Now $3.37",
+            p1: "",
+        },
+        {
+            img: "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.1cf/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwce73973f/crop/026311425_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=q_s_",
+            name: "Noir",
+            disc: "3 in 1 Hair, Face & Body Wash",
+            strikeoff: "$0",
+            rate: "Now $14.50",
+            p1: "",
+        },
+        {
+            img: "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.1cf/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwc6262222/crop/026177563_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=q_s_",
+            name: "Teak Wood",
+            disc: "3 in 1 Hair, Face & Body Wash",
+            strikeoff: "$0",
+            rate: "Now $13.87",
+            p1: "",
+        },
+        {
+            img: "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.1cf/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwe1df84f7/crop/026397110_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=q_s_",
+            name: "Ocean",
+            disc: "Concentrated Room Spray",
+            strikeoff: "$15.50",
+            rate: "Now $3.87",
+            p1: "Mix & Match: Buy 3, Get 3 Free",
+        },
+        {
+            img: "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.1cf/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw459dddc8/crop/026311429_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=q_s_",
+            name: "Noir",
+            disc: "Body Spray",
+            strikeoff: "$0",
+            rate: "Now $14.50",
+            p1: "",
+        },
+        {
+            img: "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.1cf/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw7cf10dc1/crop/026353995_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=q_s_",
+            name: "Whiskey Reserve",
+            disc: "3 in 1 Hair, Face & Body Wash",
+            strikeoff: "$14.50",
+            rate: "Now $3.62",
+            p1: "",
+        },
+        {
+            img: "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.1cf/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw17ae8dbd/crop/026347256_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=q_s_",
+            name: "Ocean",
+            disc: "Hand Sanitizer",
+            strikeoff: "$15.50",
+            rate: "Now $3.87",
+            p1: "",
+        },
+        {
+            img: "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.1cf/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw0be2f46c/crop/026326994_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=q_s_",
+            name: "Stone",
+            disc: "Ulitmate Hydration Body Cream",
+            strikeoff: "$15.50",
+            rate: "Now $3.87",
+            p1: "Mix & Match: Buy 3, Get 3 Free",
+        },
+        {
+            img: "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.1cf/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw0894444d/crop/026276062_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=q_s_",
+            name: "TeakWood",
+            disc: "Deodrant",
+            strikeoff: "$15.50",
+            rate: "Now $3.87",
+            p1: "Mix & Match: Buy 3, Get 3 Free",
+        },
+        {
+            img: "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.1cf/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw00148a9b/crop/026306058_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=q_s_",
+            name: "Sweater Weather",
+            disc: "Gentle Gel Hair Soap",
+            strikeoff: "$7.50",
+            rate: "Now $3.27",
+            p1: "",
+        },
+        {
+            img: "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.1cf/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwdd602de9/crop/026194284_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=q_s_",
+            name: "White Adjustable",
+            disc: "Wallflowers Scent Control™ Plug",
+            strikeoff: "$0",
+            rate: "Now $12.57",
+            p1: "",
+        },
+        {
+            img: "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.1cf/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw0102c7b4/crop/026282784_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=q_s_",
+            name: "Marble",
+            disc: "Ultimate Hydrogen Body Cream",
+            strikeoff: "$0",
+            rate: "Now $13.87",
+            p1: "",
+        },
+        {
+            img: "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.1cf/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwe3b20d17/crop/024637802_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=q_s_",
+            name: "Graphite",
+            disc: "Antiperpirant Deodrant",
+            strikeoff: "$15.50",
+            rate: "Now $13.87",
+            p1: "Mix & Match: Buy 3, Get 3 Free",
+        },
+        {
+            img: "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.1cf/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwce16f21a/crop/026353310_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=q_s_",
+            name: "Bourbon",
+            disc: "Body Lotion",
+            strikeoff: "$13.30",
+            rate: "Now $3.37",
+            p1: "",
+        },
+        {
+            img: "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.1cf/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwfc54be5f/hires/026311431_alt_1.jpg?sh=413&yocs=q_s_",
+            name: "Noir",
+            disc: "Cologe",
+            strikeoff: "$0",
+            rate: "Now $39.87",
+            p1: "",
+        },
+        {
+            img: "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.1cf/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwce73973f/crop/026311425_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=q_s_",
+            name: "Noir",
+            disc: "3 in 1 Hair, Face & Body Wash",
+            strikeoff: "$15.50",
+            rate: "Now $13.87",
+            p1: "",
+        },
+        {
+            img: "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.1cf/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw0bf81d33/crop/026018137_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=q_s_",
+            name: "Mohogany Teakwood",
+            disc: "Gentle Foaming Handsoap",
+            strikeoff: "$7.50",
+            rate: "Now $6.87",
+            p1: "Mix & Match: Buy 3, Get 3 Free",
+        },
+        // {
+        //     img: "",
+        //     name: "",
+        //     disc: "",
+        //     strikeoff: "$15.50",
+        //     rate: "Now $3.87",
+        //     p1: "",
+        // },
+    ];
+
+    data.forEach(function (ele) {
+        createProduct(ele);
+    });
+
+    function createProduct(ele) {
+        var pro = document.createElement("div");
+        pro.setAttribute("class", "product");
+        
+        var top = document.createElement("div");
+        top.setAttribute("id", "top");
+
+        var img = document.createElement("img");
+        img.setAttribute("src", ele.img);
+
+        top.append(img);
+
+        var bot1 = document.createElement("div");
+        bot1.setAttribute("id", "bottom");
+
+        var h3 = document.createElement("h3");
+        h3.textContent = ele.name;
+
+        var p1 = document.createElement("p");
+        p1.setAttribute("id", "disc");
+        p1.textContent = ele.disc;
+
+        var sttext = document.createElement("div");
+        sttext.setAttribute("id", "stText"); 
+
+        var h3_2 = document.createElement("h3");
+        h3_2.setAttribute("id", "strike");
+        h3_2.textContent = ele.strikeoff;
+
+        var h3_3 = document.createElement("h3");
+        h3_3.setAttribute("id", "rate");
+        h3_3.textContent = ele.rate;
+
+        sttext.append(h3_2, h3_3);
+
+        var p2 = document.createElement("p");
+        p2.textContent = ele.p1;
+
+        bot1.append(h3, p1, sttext, p2);
+
+        var bot2 = document.createElement("div");
+        bot2.setAttribute("id", "bottom2");
+
+        var imp = document.createElement("input")
+        imp.setAttribute("type", "button");
+        imp.setAttribute("id", "button");
+        imp.value="ADD TO BAG";
+
+        var str = document.createElement("div");
+        str.setAttribute("class", "star");
+
+        for(var i = 1; i <= 5; i++) {
+            var sp = document.createElement("span");
+            sp.setAttribute("id", i+"one");
+            sp.setAttribute("class", "fa fa-star fa-3x");
+            sp.setAttribute("onclick", "starmark(this)");
+            str.append(sp);
+        }
+           
+        bot2.append(imp, str);
+
+        pro.append(top, bot1, bot2);
+
+        document.querySelector("#container").append(pro);
+
+    }
+
+    var count = 0;
+    function starmark(item) {
+        count=item.id[0];
+        var subid= item.id.substring(1);
+            for(var i=0;i<5;i++) {
+                if(i<count) {
+                    document.getElementById((i+1)+subid).setAttribute("class", "fa fa-star fa-3x checked");
+                }
+            }
+    }
+
+</script>
