@@ -1,2 +1,2 @@
 # Bath-Bodyworks
-Group Project using HTML, CSS, JAVASCRIPT
+We were a team of 5 from the Masai Web-15 batch who worked on cloning the bathandbodyworks.com website as part of our Unit-2 construct week. As a team, we were given a project to clone the bathandbodyworks.com. Our project demonstrates a basic flow of an e-commerce page, where a customer can Sign-up, Login, view and filter products, add their product to a cart and place his or her happy order. 
