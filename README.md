@@ -1,4 +1,4 @@
-# [Adidas | Original](https://www.bathandbodyworks.com/)
+# [Bath & Body Works | Original](https://www.bathandbodyworks.com/)
 <table>
 <tr>
 <td>
