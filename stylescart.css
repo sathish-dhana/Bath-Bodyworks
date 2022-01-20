@@ -154,7 +154,7 @@ body{
 }
 #containerhead{
     height: 40px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 65%;
     margin: auto;
     display: flex;
@@ -167,8 +167,7 @@ body{
     margin-top: 10px;
 }
 #container{
-    height: 800px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 65%;
     margin: auto;
     display: grid;
@@ -177,7 +176,7 @@ body{
     grid-gap: 10px;
 }
 #container>div{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #333333;
 }
 .ll1{
     margin-left: 45px;
@@ -192,17 +191,20 @@ body{
     height: 180px;
     width: 80px;
     margin: 20px 20px 20px 20px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
-#protext{
+.protext{
     margin-left: 0px;
+    width: 220px;
+    color: #333333;
+    /* border: 1px solid red; */
 }
-#protext h4{
+.protext h4{
     color: #333333;
     font-size: 16px;
     margin-bottom: 0px;
 }
-#protext>h4 +p{
+.protext>h4 +p{
     color: #666666;
     font-size: 12px;
     margin: 8px 0px 0px 0px;
@@ -213,12 +215,12 @@ body{
     margin: 6px 0px 0px 0px;
 }
 #heart {
-    color: #333333;
     font-size: 16px;
     margin: 50px 0px 0px 0px;
 }
 #heart:hover {
     color: magenta;
+    cursor: pointer;
 }
 .checked{
     color: magenta;
@@ -227,4 +229,293 @@ body{
     color: #333333;
     font-size: 14px;
     margin: 50px 0px 0px 0px;
+}
+.wrapper {
+	width: 100%;
+	overflow: hidden;
+}
+.photobanner {
+	position: relative;
+	height: 233px;
+	margin-bottom: 30px;
+	display: flex;
+	width: 100%;
+}
+
+.photobanner img {
+  margin: 0px 80px;
+}
+
+.photobanner {
+  animation: bannermove 50s linear infinite alternate-reverse;
+}
+
+@keyframes bannermove {
+  from {
+    left: -2000px;
+  }
+  to {
+    left: 0px;
+  }
+}
+#animhead{
+    font-family: 'Titillium Web', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+#rate{
+    color: #333333;
+    font-size: 17px;
+    font-family: 'Titillium Web', sans-serif;
+    margin-left: 30px;
+}
+.protext+div{
+    width: 100px;
+    margin-right: 0px;
+}
+#cal{
+    display: flex;
+    /* border: 1px solid red; */
+    width: 200px;
+    height: 200px;
+    margin-left:0px;
+    height: 20px;
+    margin-top: 20px;
+}
+.box{
+    /* border: 1px solid black; */
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    margin-left: 1px;
+    background-color: #F2F2F2;
+}
+.box p{
+    margin-top: 4px;
+    font-size: 17px;
+    font-family: 'Titillium Web', sans-serif;
+}
+#hov:hover{
+    color: white;
+    background-color: #0c0c0c;
+    cursor: pointer;
+}
+#total{
+    margin-left: 170px;
+    margin-top: -5px;
+    /* border: 1px solid red; */
+}
+#tottext{
+    color: #333333;
+    font-size: 19px;
+    font-weight: bolder;
+    font-family: Arial, sans-serif;
+}
+#del{
+    margin-top: 20px;
+    margin-left: 80px;
+    font-size: 23px;
+}
+#del:hover{
+    color: red;
+    cursor: pointer;
+    transition: 00.3ms;
+}
+#ratediv{
+    /* border: 1px solid black; */
+    width: 150px;
+}
+#titofshop{
+    /* border: 1px solid red; */
+    margin: auto;
+    width: 65%;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+#headll1{
+    margin-left: 33%;
+}
+#ship{
+    /* border: 1px solid black; */
+    height: 100px;
+    width: 65%;
+    margin: auto;
+    display: flex;
+}
+#left{
+    border-right: 4px solid #F2F2F2;
+    width: 50%;
+    margin: 20px 0px 20px 0px;
+}
+#truck { 
+    margin: 20px 0px 0px 130px;
+    color: #005699;
+}
+#truck+span{ 
+    color: #005699;
+    font-family: Arial, sans-serif;
+    margin-left: 6px;
+}
+#right{
+    /* border: 1px solid red; */
+    width: 50%;
+    display: flex;
+}
+#point{
+    color: magenta;
+    font-size: 25px;
+    margin: 30px 10px 0px 120px;
+}
+#rright{
+    /* border: 1px solid black; */
+    width: 500px;
+    padding-top: 20px;
+    margin-left: 0px;
+}
+#rright p{
+    color: #005699;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+#goto{
+    border-bottom: 2px solid #F2F2F2;
+    margin: auto;
+    height: 100px;
+    width: 65%;
+}
+#purchase{
+    width: 180px;
+    height: 40px;
+    background-color: #343434;
+    color: rgb(250, 250, 250);
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    border: 0px;
+    margin: 30px 0px 0px 800px;
+}
+#purchase:hover{
+    background-color:rgb(246, 246, 246);
+    color: rgb(51, 51, 51);
+    transition: 0.3s;
+}
+#checkout{
+    border-bottom: 1px solid #333333;
+    margin-top: 20px;
+    margin: auto;
+    width: 65%;
+    height: 400px;
+    display: flex;
+    margin-bottom: 30px;
+}
+#checkout #promo{
+    border: 1px solid #333333;
+    width: 340px;
+    height: 140px;
+    margin-top: 30px;
+}
+#promo h3{
+    margin-left: 10px;
+    color: #333333;
+    font-size: 16px;
+}
+#promo p{
+    margin-left: 10px;
+    color: #333333;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+#promo #codebox{
+    margin-left: 10px;
+    border: 1px solid #333333;
+    height: 30px;
+}
+
+#promo #secretcode{
+    width: 90px;
+    height: 30px;
+    background-color: #343434;
+    color: rgb(250, 250, 250);
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    border: 0px;
+    margin-left: 5px;
+}
+#promo #secretcode:hover{
+    background-color:rgb(246, 246, 246);
+    color: rgb(51, 51, 51);
+    transition: 0.3s;
+}
+#overall{
+    width: 600px;
+    height: 300px;
+    border: 1px solid black;
+    margin-top: 30px;
+    margin-left: 100px;
+    background-color: #F2F2F2;
+    padding-top: 20px;
+}
+.over1{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px 0px 30px;
+    color: #333333;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#divider{
+    width: 90%;
+    height: 3px;
+    background-color: rgb(194, 194, 194);
+    margin: auto;
+    margin-top: 10px;
+}
+#bigtxt{
+    font-size: 20px;
+    font-weight: bold;
+}
+#paypal{
+    width: 250px;
+    height: 40px;
+    border: 0px;
+    background-color: #FFC43A;
+}
+#pay{
+    width: 250px;
+    height: 40px;
+    background-color: #028628;
+    color: white;
+}
+#payimg{
+    width: 85px;
+    height: 25px;
+    margin-top: 8px;
+    margin-left: 80px
+}
+#paypal:hover{
+    background-color: #F2F2F2;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#pay span{
+    margin-top: 10px;
+    padding-left: 0px;
+    color: white;
+}
+#txtout{
+    margin-left: 75px;
+}
+#txtout1{
+    margin-left: 5px;
+}
+#pay:hover{
+    background-color: #F2F2F2;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #028628;
 }

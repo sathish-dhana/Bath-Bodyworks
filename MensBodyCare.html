@@ -372,8 +372,11 @@
         //     strikeoff: "$15.50",
         //     rate: "Now $3.87",
         //     p1: "",
+                // smell: "WOODY",
+                // type: "BODY SOAP",
         // },
     ];
+
 
     localStorage.setItem("Data", JSON.stringify(data));
     var mensData = JSON.parse(localStorage.getItem("Data")); 
@@ -450,6 +453,8 @@
                 sp.setAttribute("onclick", "starmark(this)");
                 str.append(sp);
             }
+
+            
             
             bot2.append(imp, str);
 
