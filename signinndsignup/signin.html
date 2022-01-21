@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bath And Body Wash-signin</title>
+    <link href="https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap" rel="stylesheet">
+    <style>
+       body{
+        background: none repeat scroll 0 0 #fff;
+        color: #666;
+         font-family: Trade Gothic W01 Light,Arial,sans-serif;
+         font-size: 12px;
+         border-color: rgb(243, 243, 243);
+       }
+        #container{
+            width: 80%;
+             height: 350px; 
+            margin: 50px auto;
+        }
+        #b1{
+            width: 85%;
+            height: 250px;
+           
+            margin: auto;
+        }
+        #b1>img{
+            height: 75%;
+            width: 100%;
+            margin: auto;
+        }
+        #b2{
+            width: 85%;
+            height: 50px;
+            font-size: 30px;
+            border-bottom: 1px solid #666;;
+            margin: auto;
+        }
+        #b3{
+            width: 50px;
+            height: 60px;
+            border: 1px solid #666;;
+            border-radius: 120%;
+            margin: auto;
+            padding: 5px 5px 5px 20px;
+            font-size: 20px;
+        }
+        #lower{
+            width: 80%;
+            height: 500px;
+            padding: 10px;
+            display:flex;
+            flex-direction: row;
+            margin: auto;
+            
+           
+        }
+        .class1,.class2 {
+            width: 40%;
+            height:80%;
+            margin: auto;
+            justify-content: center;
+           
+        }
+        #email,#pass,#sub{
+            display: block;
+            margin: 15px 0px 15px 0px;
+        }
+       #sub{
+           width: 80px;
+       }
+       
+       #sub{
+          
+           height: 40px;
+           background-color: black;
+           color: #666;
+           border: none;
+          margin-left: 60px;
+          
+       }
+       #create{
+          
+          height: 40px;
+          background-color: black;
+          color: #666;
+          border: none;
+         margin-left: 140px;
+
+         
+      }
+       #sub:hover{
+           background-color: rgb(214, 213, 213);
+           color:black;
+           cursor: pointer;
+       }
+       #create:hover{
+           background-color: rgb(216, 215, 215);
+           color:black;
+           cursor: pointer;
+       }
+       
+       #bottom{
+           text-align: center;
+       }
+       
+       .common{
+           text-align: center;
+           font-size: 20px;
+       }
+        #frm{
+         margin-left:100px;
+       } 
+       #privacy{
+           margin-left: 60px;
+           font-size: 12px;
+       }
+     
+.spacer .line {
+    border-left: 1px solid #aaa;
+    width: 1px;
+    height: 70%;
+    position: absolute;
+    left: 50%;
+}
+.all{
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+     <p><a href=" ">Home</a> &nbsp; &nbsp; / &nbsp; &nbsp; Sign In Or Sign Up</p>
+    <div id="container">
+     
+
+    </div>
+   
+    <div id="lower">
+       
+   
+        <div class="class1">
+         <p class="common">SIGN IN</p>
+         <p class="all">If you already have an account with us, sign in below</p>
+         <form id="frm">
+          <label for="email">Email</label>
+      <input id="email" type="email" requried/>
+      <label for="pass">Password</label>
+      <input id="pass" type="password" required>
+      <p><a href=" ">Forget Password?</a>&nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp; Remember Me</p>
+    <p id="privacy" > <a href=" ">Privacy Policy</a></p>
+      <input id="sub" type="submit" value="SIGN IN"/>
+      
+         </form>
+        </div>
+          <div class="spacer">
+       <div class="line"> </div>
+       <!-- <div class="or">OR</div> -->
+    </div>
+        <div class="class2">
+            <p class="common">SIGN UP</p>
+            <p class="all">Create an account to access the best of your favorite store</p>
+            <img  width="400px" src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.1d0/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dwf946a6ac/images/loyalty/July19/nonloyalty_5thmkt_signuptile_D.png?yocs=s_"/>
+           
+           <a href="create_account.html"> <input  id="create" type="submit" value="CREATE AN ACCOUNT"/></a>
+          </div>
+
+  </div>
+  <div  id="bottom">
+      <p>QUESTIONS?</p>
+      <p>We’re here for you! Call us at 1-800-756-5005.</p>
+  </div>
+</body>
+</html>
+<script>
+         //box1
+        var box1= document.createElement("div");
+        box1.setAttribute("id","b1");
+        var image= document.createElement("img");
+        image.setAttribute("src"," https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.1cf/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw67bc4699/images/banners/sign-in_d.png?yocs=s_")
+        box1.append(image);
+        //box2
+        var box2=document.createElement("div");
+        box2.setAttribute("id","b2");
+        var txt=document.createElement("p");
+        txt.textContent = "Sign In Or Sign Up";
+        box2.append(txt);
+
+        document.getElementById("container").append(box1,box2);
+        
+         
+
+
+         document.querySelector("form").addEventListener("submit",signin);
+
+var regdUser = JSON.parse(localStorage.getItem("userDataBase"));
+
+function signin(event) {
+  event.preventDefault();
+  var email = document.querySelector("#email").value;
+  var Password = document.querySelector("#pass").value;
+
+  for (var i = 0; i < regdUser.length; i++) {
+    console.log(regdUser[i].emailAdd, regdUser[i].password);
+    if (regdUser[i].emailAdd == email && regdUser[i].password == Password) {
+      window.location.href = "MensBodyCare.html";
+    // alert("login sucessful");
+    }
+  }
+}
+         
+
+         
+
+
+
+</script>
