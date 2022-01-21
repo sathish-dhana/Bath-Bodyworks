@@ -11,9 +11,9 @@ body{
     /* border: 1px solid red; */
     height: 70px;
     width: 350px;
-    margin-left: 600px;
+    margin: auto;
     margin-top: 0px;
-    display: flex;
+
 }
 #topt1 > img{
     height: 70px;
@@ -74,14 +74,14 @@ body{
     border-top: 5px solid #F2F2F2;
 }
 #form{
-    width: 350px;
+    width: 20%;
     height: 300px;
     /* border: 1px solid black; */
     font-size: 14px;
     color: #333333;
     font-family: Arial, sans-serif;
     margin-top: 20px;
-    margin-left: 200px;
+    margin-left: 8%;
 }
 #form p{
     margin-bottom: 0px;
@@ -189,13 +189,13 @@ body{
 }
 #productdisplay img{
     height: 180px;
-    width: 80px;
+    width: 8%;
     margin: 20px 20px 20px 20px;
     /* border: 1px solid black; */
 }
 .protext{
     margin-left: 0px;
-    width: 220px;
+    width: 20%;
     color: #333333;
     /* border: 1px solid red; */
 }
@@ -270,6 +270,8 @@ body{
     font-size: 17px;
     font-family: 'Titillium Web', sans-serif;
     margin-left: 30px;
+    width: 40%;
+    /* border: 1px solid red; */
 }
 .protext+div{
     width: 100px;
@@ -278,7 +280,7 @@ body{
 #cal{
     display: flex;
     /* border: 1px solid red; */
-    width: 200px;
+    width: 20%;
     height: 200px;
     margin-left:0px;
     height: 20px;
@@ -305,6 +307,7 @@ body{
 #total{
     margin-left: 170px;
     margin-top: -5px;
+    width: 5%;
     /* border: 1px solid red; */
 }
 #tottext{
@@ -317,6 +320,8 @@ body{
     margin-top: 20px;
     margin-left: 80px;
     font-size: 23px;
+    width: 20%;
+    /* border: 1px solid red; */
 }
 #del:hover{
     color: red;
@@ -413,7 +418,7 @@ body{
 }
 #checkout #promo{
     border: 1px solid #333333;
-    width: 340px;
+    width: 35%;
     height: 140px;
     margin-top: 30px;
 }
@@ -450,11 +455,11 @@ body{
     transition: 0.3s;
 }
 #overall{
-    width: 600px;
+    width: 60%;
     height: 300px;
     border: 1px solid black;
     margin-top: 30px;
-    margin-left: 100px;
+    margin-left: 10%;
     background-color: #F2F2F2;
     padding-top: 20px;
 }
@@ -476,6 +481,10 @@ body{
     margin-top: 10px;
 }
 #bigtxt{
+    font-size: 20px;
+    font-weight: bold;
+}
+#bigtxt1{
     font-size: 20px;
     font-weight: bold;
 }
@@ -518,4 +527,8 @@ body{
     cursor: pointer;
     transition: 0.3s;
     color: #028628;
+}
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
 }
