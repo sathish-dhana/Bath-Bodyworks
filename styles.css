@@ -10,16 +10,27 @@ body{
 #topt1{
     /* border: 1px solid red; */
     height: 70px;
-    width: 350px;
-    margin-left: 600px;
+    width: 100%;
     margin-top: 0px;
     display: flex;
 }
-#topt1 > img{
+#topcenter{
     height: 70px;
-    width: 370px;
+    width: 25%;
     /* border: 1px solid black; */
+    margin: auto;
+}
+#topcenter > img{
+    height: 70px;
+    width: 100%;
+    /* border: 1px solid red; */
     margin-top: 0px;
+}
+#topleft{
+    height: 70px;
+    width: 25%;
+    margin-left: 0%;
+    /* border: 1px solid black; */
 }
 #nav{
     display: flex;
@@ -43,17 +54,16 @@ body{
     border-bottom: 4px solid #015799;
     cursor: pointer;
 }
-#topt1 > input{
-    width: 600px;
+#topleft > input{
+    width: 60%;
     height: 30px;
     font-size: 17px;
-    margin-left: 220px;
     margin-top: 16px;
 }
 #cart{
     font-size: 30px;
     color: #015799;
-    margin-top: 22px;
+    margin-top: 0px;
     margin-left: 20px;
 }
 #cart:hover{
@@ -148,7 +158,7 @@ span {
     justify-content: center;
 }
 img{
-    width: 150px;
+    width: 60%;
     height: 340px;
 }
 #bottom{
@@ -229,14 +239,14 @@ img{
     border-top: 5px solid #F2F2F2;
 }
 #form{
-    width: 350px;
+    width: 20%;
     height: 300px;
     /* border: 1px solid black; */
     font-size: 14px;
     color: #333333;
     font-family: Arial, sans-serif;
     margin-top: 20px;
-    margin-left: 200px;
+    margin-left: 8%;
 }
 #form p{
     margin-bottom: 0px;
@@ -341,4 +351,8 @@ option{
 #sort select{
     width: 150px;
     background-color: #F2F2F2;
+}
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
 }
