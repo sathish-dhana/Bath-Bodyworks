@@ -400,7 +400,8 @@ body{
     font-size: 12px;
     font-family: Arial, sans-serif;
     border: 0px;
-    margin: 30px 0px 0px 800px;
+    margin-top: 30px;
+    margin-left: 80%;
 }
 #purchase:hover{
     background-color:rgb(246, 246, 246);
