@@ -14,7 +14,6 @@
 <body>
   <div id="theader">
     <p>We're here to help! 1-800-756-5005</p>
-    <p>| 7 Days a Week 6AM–2AM EST</p>
   </div>
   <div id="header">
     <img
@@ -131,7 +130,7 @@
   <div id="foot2">
     <div id="footdiv">
       <P>© 2022 Bath & Body Works Direct, Inc. </P>
-      <p>Cloned By fw15</p>
+     <p>Cloned By fw15</p>
     </div>
   </div>
   
@@ -140,8 +139,9 @@
 </html>
 <script>
   document.querySelector("#change").addEventListener("click", function(){
-      window.location.href="Pay.html";
+      window.location.href="payment.html";
   });  
+
   document.querySelector("#form_ship").addEventListener("submit", bathBody);
   var bathbodyArr = JSON.parse(localStorage.getItem("xyz")) || [];
   function bathBody(event) {
@@ -165,6 +165,8 @@
     console.log(bathbodyobj);
     bathbodyArr.push(bathbodyobj);
     localStorage.setItem("xyz", JSON.stringify(bathbodyArr));
+
+    
   }
 
 </script>

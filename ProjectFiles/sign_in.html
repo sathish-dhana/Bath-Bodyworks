@@ -11,32 +11,42 @@
        body{
         background: none repeat scroll 0 0 #fff;
         color: #666;
-         font-family: Trade Gothic W01 Light,Arial,sans-serif;
-         font-size: 12px;
+         font-family: Arial,sans-serif;
+         font-size: 15px;
          border-color: rgb(243, 243, 243);
        }
         #container{
             width: 80%;
-             height: 350px; 
-            margin: 50px auto;
+             height: 250px; 
+            margin: auto;
+            margin-top: 20px;
+            /* border: 1px solid red; */
         }
         #b1{
             width: 85%;
-            height: 250px;
-           
+            margin-bottom: 0px;
             margin: auto;
         }
         #b1>img{
-            height: 75%;
             width: 100%;
             margin: auto;
+            /* border: 1px solid red; */
+            margin-top: 0px;
+            margin-bottom: 0px;
         }
         #b2{
             width: 85%;
-            height: 50px;
             font-size: 30px;
-            border-bottom: 1px solid #666;;
+            height: 80px;
+            margin-top: 0px;
+            padding-bottom: 0px;
+            margin-bottom: 0px;
             margin: auto;
+        }
+        #b2>p{
+            border-bottom: 1px solid #666;
+            padding-bottom: 20px;
+            margin-bottom: 10px;
         }
         #b3{
             width: 50px;
@@ -49,12 +59,12 @@
         }
         #lower{
             width: 80%;
-            height: 500px;
+            height: 430px;
             padding: 10px;
             display:flex;
             flex-direction: row;
             margin: auto;
-            
+            /* border: 1px solid red; */
            
         }
         .class1,.class2 {
@@ -62,6 +72,7 @@
             height:80%;
             margin: auto;
             justify-content: center;
+            margin-top: 0px;
            
         }
         #email,#pass,#sub{
@@ -73,12 +84,12 @@
        }
        
        #sub{
-          
            height: 40px;
            background-color: black;
            color: #666;
            border: none;
-          margin-left: 60px;
+           margin-top: 10px;
+          margin-left: 11%;
           
        }
        #create{
@@ -87,8 +98,9 @@
           background-color: black;
           color: #666;
           border: none;
-         margin-left: 140px;
-
+        margin-left: 30%;
+        margin-top: 20px;
+        width: 200px;
          
       }
        #sub:hover{
@@ -104,6 +116,7 @@
        
        #bottom{
            text-align: center;
+           /* border: 1px solid red; */
        }
        
        .common{
@@ -111,17 +124,25 @@
            font-size: 20px;
        }
         #frm{
-         margin-left:100px;
+            margin-top: 30px;
+         margin-left: 25%;
+         /* border: 1px solid black; */
        } 
        #privacy{
-           margin-left: 60px;
+           margin-top: 30px;
+           margin-left: 20%;
            font-size: 12px;
+       }
+       input{
+            width: 250px;
+            height: 25px;    
+            margin-top: 0px;
        }
      
 .spacer .line {
     border-left: 1px solid #aaa;
     width: 1px;
-    height: 70%;
+    height: 54%;
     position: absolute;
     left: 50%;
 }
@@ -132,35 +153,20 @@
 </head>
 <body>
       <!-- copy Header -->
-      <div id="headtop">
-        <div id="topt1">
-            <div id="topcenter">
-                <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.1d0/on/demandware.static/Sites-BathAndBodyWorks-Site/-/default/dw5c22b8c2/images/svg-icons/Logos-main.svg?yocs=q_s_"> 
-            </div>
-            <div id="topleft">           
-            <input type="text" id="search" placeholder="Search By Product">
-            <span id ="cart" class="fas fa-search"></span>
-            <a href="cart.html"><span id ="cart" class="fas fa-cart-plus"></span></a>
-            </div>
-        </div>
-        <div id="nav">
-            <a href=""><span>HOME</span></a>
-            <a href="MensBodyCare.html"><span>MEN'S SHOP</span></a>
-            <a href="WomenBodyCare.html"><span>WOMEN'S SHOP</span></a>
-            <a href="AromaTheraphy.html"><span>AROMATHERAPHY SHOP</span></a>
-            <a href="AromaTheraphy.html"><span>SHOP BY FRAGRANCE</span></a>
+      <div id="topt1">
+        <div id="topcenter" style="margin: auto;">
+            <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.1d0/on/demandware.static/Sites-BathAndBodyWorks-Site/-/default/dw5c22b8c2/images/svg-icons/Logos-main.svg?yocs=q_s_"> 
         </div>
     </div>
     <div id="line">
     </div>
-
-
-
-
-     <p><a href=" ">Home</a> &nbsp; &nbsp; / &nbsp; &nbsp; Sign In Or Sign Up</p>
     <div id="container">
-     
-
+        <div id="b1">
+            <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.1cf/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw67bc4699/images/banners/sign-in_d.png?yocs=s_">
+        </div>
+        <div id="b2">
+            <p>Sign In Or Sign Up</p>
+        </div>
     </div>
    
     <div id="lower">
@@ -171,12 +177,12 @@
          <p class="all">If you already have an account with us, sign in below</p>
          <form id="frm">
           <label for="email">Email</label>
-      <input id="email" type="email" requried/>
+      <input id="email" type="email" placeholder="example@gmail.com" requried/>
       <label for="pass">Password</label>
       <input id="pass" type="password" required>
-      <p><a href=" ">Forget Password?</a>&nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp; Remember Me</p>
+      <p><a href=" ">Forget Password?</a></p>
     <p id="privacy" > <a href=" ">Privacy Policy</a></p>
-      <input id="sub" type="submit" value="SIGN IN"/>
+      <input style="width: 150px;"id="sub" type="submit" value="SIGN IN"/>
       
          </form>
         </div>
@@ -185,9 +191,9 @@
        <!-- <div class="or">OR</div> -->
     </div>
         <div class="class2">
-            <p class="common">SIGN UP</p>
+            <p   style="margin-left: 0%;" class="common">SIGN UP</p>
             <p class="all">Create an account to access the best of your favorite store</p>
-            <img  width="400px" src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.1d0/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dwf946a6ac/images/loyalty/July19/nonloyalty_5thmkt_signuptile_D.png?yocs=s_"/>
+            <img  style="margin-left: 10%;" width="400px" src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.1d0/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dwf946a6ac/images/loyalty/July19/nonloyalty_5thmkt_signuptile_D.png?yocs=s_"/>
            
            <a href="create.html"> <input  id="create" type="submit" value="CREATE AN ACCOUNT"/></a>
           </div>
@@ -199,7 +205,7 @@
   </div>
 
      <!-- footer part -->
-  <div id="foot1">
+  <div id="foot1" style="height: 280px;">
     <div id="form">
         <form>
             <p> Get email offers & the latest news from Bath & Body Works!</p>
@@ -209,14 +215,6 @@
             <input type="email" placeholder="Enter Email">
             <input id="submit" type="submit" value="submit">
         </form>
-        <h4>Get Connected</h4>
-        <div id="socialMedia">
-            <a href="https://www.facebook.com/bathandbodyworks"><span class="fab fa-facebook" id="fb"></span></a>
-            <a href="https://www.instagram.com/bathandbodyworks/"><span class="fab fa-instagram-square" id="fb"></span></a>
-            <a href="https://twitter.com/bathbodyworks"><span class="fab fa-twitter-square" id="fb"></span></a>
-            <a href="https://www.youtube.com/user/bathandbodyworks"><span class="fab fa-youtube" id="youtube"></span></a>
-            <a href="https://www.pinterest.com/bathbodyworks/"><span class="fab fa-pinterest" id="youtube"></span></a>
-        </div>
     </div>
     <div id="logo"><img id="logoimg" src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.1cf/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw0c8e6af7/images/evergreen/Happiness_Guaranteedtimes2_v2.jpg?yocs=q_s_"></div>
    <div id="contact">
@@ -248,20 +246,7 @@
 </body>
 </html>
 <script>
-         //box1
-        var box1= document.createElement("div");
-        box1.setAttribute("id","b1");
-        var image= document.createElement("img");
-        image.setAttribute("src"," https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.1cf/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw67bc4699/images/banners/sign-in_d.png?yocs=s_")
-        box1.append(image);
-        //box2
-        var box2=document.createElement("div");
-        box2.setAttribute("id","b2");
-        var txt=document.createElement("p");
-        txt.textContent = "Sign In Or Sign Up";
-        box2.append(txt);
 
-        document.getElementById("container").append(box1,box2);
         
          
 
@@ -278,8 +263,7 @@ function signin(event) {
   for (var i = 0; i < regdUser.length; i++) {
     console.log(regdUser[i].emailAdd, regdUser[i].password);
     if (regdUser[i].emailAdd == email && regdUser[i].password == Password) {
-      window.location.href = "MensBodyCare.html";
-    // alert("login sucessful");
+      window.location.href = "home_page.html";
     }
   }
 }

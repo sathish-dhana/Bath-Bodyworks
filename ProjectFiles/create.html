@@ -12,8 +12,13 @@
         
         color: #666;
          font-family: Trade Gothic W01 Light,Arial,sans-serif;
-         font-size: 12px;
+         font-size: 17px;
          border-color: rgb(243, 243, 243);
+       }
+       input{
+            width: 250px;
+            height: 25px;    
+            margin-top: 0px;
        }
 
         #container{
@@ -22,15 +27,14 @@
             padding: 30px;
             /* border: 1px solid red; */
             /* background-color: rgb(250, 249, 246); */
-            font-family: Trade Gothic W01 Light,Arial,sans-serif;
+            font-family: Arial,sans-serif;
             display: flex;
             flex-direction: column;
-           
         }
         #box1{
             
             width: 80%;
-            height: 200px;
+            height: 150px;
             /* border: 1px solid red; */
             margin: auto;
             padding: 10px 30px 0px 40px;
@@ -38,9 +42,10 @@
         }
        
         #box2{
-            width: 80%;
+            width: 22%;
             margin: auto;
-            margin-left: 400px;
+            margin-top: 40px;
+            /* border: 1px solid red; */
             justify-content: center;
         }
         #box2>div{
@@ -48,8 +53,10 @@
         }
         
         img{
-            height:90%;
+            height:80%;
             width:100%;
+            margin-bottom: 0px;
+            /* border: 1px solid red; */
            
         }
         span{
@@ -65,13 +72,14 @@
         }
         #b3{
             width: 80%;
+            margin-top: 0px;
             margin: auto;
             border-bottom: 1px solid black;
             font-size: 25px;
             padding: 1%;
         }
        #sign{
-           height: 60px;
+           height: 40px;
            width: 150px;
            background-color: black;
            color: white;
@@ -87,24 +95,11 @@
 </head>
 <body>
    <!-- header part -->
-    <div id="headtop">
+
         <div id="topt1">
-            <div id="topcenter">
+            <div id="topcenter" style="margin: auto;">
                 <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.1d0/on/demandware.static/Sites-BathAndBodyWorks-Site/-/default/dw5c22b8c2/images/svg-icons/Logos-main.svg?yocs=q_s_"> 
             </div>
-            <div id="topleft">           
-            <input type="text" id="search" placeholder="Search By Product">
-            <span id ="cart" class="fas fa-search"></span>
-            <a href="cart.html"><span id ="cart" class="fas fa-cart-plus"></span></a>
-            </div>
-        </div>
-        <div id="nav">
-            <a href=""><span class="black">HOME</span></a>
-            <a href="MensBodyCare.html"><span  class="black" >MEN'S SHOP</span></a>
-            <a href="WomenBodyCare.html"><span  class="black" >WOMEN'S SHOP</span></a>
-            <a href="AromaTheraphy.html"><span  class="black" >AROMATHERAPHY SHOP</span></a>
-            <a href="AromaTheraphy.html"><span  class="black" >SHOP BY FRAGRANCE</span></a>
-        </div>
     </div>
     <div id="line">
     </div>
@@ -123,34 +118,34 @@
      <form>
          <div>
          <label for="fname" ><p></p><span>*</span>First Name</p></label>
-         <input id="fname" name="fname" type="text" required /><b class="formerror"> </b>
+         <input id="fname" name="fname" type="text" placeholder="Enter First Name" required /><b class="formerror"> </b>
         </div>
          <div>
          <label for="lname" ><p>Last Name</p></label>
-         <input id="lname" name="lname" type="text"/><b class="formerror"> </b>
+         <input id="lname" name="lname"  placeholder="Enter Last Name" type="text"/><b class="formerror"> </b>
         </div>
          <div>
          <label for="email" ><p><span>*</span>Email</p></label>
-         <input id="email" name="femail" type="email"  required /><b class="formerror"> </b>
+         <input id="email" name="femail" type="email" placeholder="example@gmail.com" required /><b class="formerror"> </b>
         </div>
          <div>
          <label for="cemail" ><p><span>*</span>Confirm Email</p></label>
-         <input id="cemail" name="cfemail"type="email"   required /><b class="formerror"> </b>
+         <input id="cemail" name="cfemail"type="email"  placeholder="example@gmail.com" required /><b class="formerror"> </b>
         </div>
          <div>
          <label for="pin" ><p><span>*</span>Zip/Postal Code</p></label>
-         <input id="pin" name="fpin" type="number"   required /><b class="formerror"> </b>
+         <input id="pin" name="fpin" type="number" placeholder="6-Digit Code" required /><b class="formerror"> </b>
         </div>
          <div>
          <label for="phone"><p></p><span>*</span>Phone</p></label>
-         <input id="phone" name="fphone" type="number"   required /><b class="formerror"> </b>
+         <input id="phone" name="fphone" type="number" placeholder="Enter Mobile Number" required /><b class="formerror"> </b>
         </div>
          <div>
          <label for="pwd" ><p><span>*</span>Password</p></label>
          <input id="pwd" name="fpass" type="password"  required /><b class="formerror"> </b>
         </div>
          <div>
-        <p> <a href=" #" id="privacy">Privacy Policy</a></p>
+        <p> <a href=" #" id="privacy" style="font-size: 13px;">Privacy Policy</a></p>
          <input id="sign" type="submit" value="CREATE ACCOUNT"/>
         </div>
      </form>
@@ -159,7 +154,7 @@
 
     </div>
     <!-- footer part -->
-    <div id="foot1">
+    <div id="foot1" style="height: 280px;">
         <div id="form">
             <form>
                 <p> Get email offers & the latest news from Bath & Body Works!</p>
@@ -169,14 +164,6 @@
                 <input type="email" placeholder="Enter Email">
                 <input id="submit" type="submit" value="submit">
             </form>
-            <h4>Get Connected</h4>
-            <div id="socialMedia">
-                <a href="https://www.facebook.com/bathandbodyworks"><span class="fab fa-facebook" id="fb"></span></a>
-                <a href="https://www.instagram.com/bathandbodyworks/"><span class="fab fa-instagram-square" id="fb"></span></a>
-                <a href="https://twitter.com/bathbodyworks"><span class="fab fa-twitter-square" id="fb"></span></a>
-                <a href="https://www.youtube.com/user/bathandbodyworks"><span class="fab fa-youtube" id="youtube"></span></a>
-                <a href="https://www.pinterest.com/bathbodyworks/"><span class="fab fa-pinterest" id="youtube"></span></a>
-            </div>
         </div>
         <div id="logo"><img id="logoimg" src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.1cf/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dw0c8e6af7/images/evergreen/Happiness_Guaranteedtimes2_v2.jpg?yocs=q_s_"></div>
        <div id="contact">
@@ -229,7 +216,7 @@
 
 
            alert("account created");
-         window.location.href= "signin.html";
+         window.location.href= "sign_in.html";
    
     }
     
