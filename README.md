@@ -11,3 +11,9 @@ Bath & Body Works is an international company that sells personal care and beaut
   </td>
 </tr>
 </table>
+
+## Built with 
+
+- HTML 5
+- CSS 3
+- Advance JavaScript (ES6)
