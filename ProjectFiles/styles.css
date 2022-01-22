@@ -47,10 +47,10 @@ body{
     height: 5px;
     background-color: #F2F2F2;
 }
-#nav > span{
+#nav span{
     height: 32px;
 }
-#nav > span:hover{
+#nav span:hover{
     border-bottom: 4px solid #015799;
     cursor: pointer;
 }
