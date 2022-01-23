@@ -45,7 +45,7 @@ Bath & Body Works is an international company that sells personal care and beaut
 
 ![](https://github.com/sathish-dhana/Bath-Bodyworks/blob/465f9958423fce37e94c854aaefdfd802963ba94/pictures/shot-6.png)
 
-### Cart Page
+### Payment Page
 
 ![](https://github.com/sathish-dhana/Bath-Bodyworks/blob/0c1049848f49e2d33d752d7a80f63e0158532573/pictures/Payment.png)
 
