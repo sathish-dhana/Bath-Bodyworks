@@ -58,7 +58,7 @@ To run, follow these steps:
 
 ### Cart Page
 
-![](https://github.com/sathish-dhana/Bath-Bodyworks/blob/465f9958423fce37e94c854aaefdfd802963ba94/pictures/shot5.png)
+![](https://github.com/sathish-dhana/Bath-Bodyworks/blob/8444b2f2e0918dd40f66ecad75e8806cc587fb90/pictures/Cart-Page.png)
 
 
 ### Cart Page
