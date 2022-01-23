@@ -18,7 +18,26 @@ Bath & Body Works is an international company that sells personal care and beaut
 - CSS 3
 - Advance JavaScript
 
-## Adidas Clone
+## [Getting Started]
+
+### Execution..
+Want to run in your local Machine? Great!
+
+To run, follow these steps:
+
+- Clone my repository `https://github.com/sathish-dhana/Bath-Bodyworks.git`
+- Open that code in your VS code `ProjectFiles/sign_in.html`
+- Open the `sign_in.html.html` on Live server
+- Then you can Navigate through other pages from Sign_In page etc.
+
+## Creators
+
+- [@PreetS123](https://github.com/PreetS123)
+- [@abhaskar007](https://github.com/abhaskar007)
+- [@yadav9452](https://github.com/yadav9452)
+- [@anupamt5683](https://github.com/anupamt5683)
+
+## Bath & BodyWorks Clone
 
 ### Sign-In
 
