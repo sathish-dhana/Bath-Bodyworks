@@ -17,3 +17,10 @@ Bath & Body Works is an international company that sells personal care and beaut
 - HTML 5
 - CSS 3
 - Advance JavaScript
+
+## Adidas Clone
+
+### Home Page
+
+![](https://github.com/m-sehrawat/Adidas-Website-Clone/blob/main/Adidas%20Clone%20Screen%20Shots/Home%20page.png?raw=true)
+
