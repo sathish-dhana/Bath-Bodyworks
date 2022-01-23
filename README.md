@@ -20,7 +20,37 @@ Bath & Body Works is an international company that sells personal care and beaut
 
 ## Adidas Clone
 
+### Sign-In
+
+![](https://github.com/sathish-dhana/Bath-Bodyworks/blob/465f9958423fce37e94c854aaefdfd802963ba94/pictures/shot1.png)
+
+### Sign-Up
+
+![](https://github.com/sathish-dhana/Bath-Bodyworks/blob/465f9958423fce37e94c854aaefdfd802963ba94/pictures/shot-2.png)
+
 ### Home Page
 
-![](https://github.com/m-sehrawat/Adidas-Website-Clone/blob/main/Adidas%20Clone%20Screen%20Shots/Home%20page.png?raw=true)
+![](https://github.com/sathish-dhana/Bath-Bodyworks/blob/465f9958423fce37e94c854aaefdfd802963ba94/pictures/shot3.png)
+
+### Product Page
+
+![](https://github.com/sathish-dhana/Bath-Bodyworks/blob/465f9958423fce37e94c854aaefdfd802963ba94/pictures/shot-4.png)
+
+### Cart Page
+
+![](https://github.com/sathish-dhana/Bath-Bodyworks/blob/465f9958423fce37e94c854aaefdfd802963ba94/pictures/shot5.png)
+
+
+### Cart Page
+
+![](https://github.com/sathish-dhana/Bath-Bodyworks/blob/465f9958423fce37e94c854aaefdfd802963ba94/pictures/shot-6.png)
+
+### Cart Page
+
+![](https://github.com/sathish-dhana/Bath-Bodyworks/blob/0c1049848f49e2d33d752d7a80f63e0158532573/pictures/Payment.png)
+
+### Review Page
+
+![](https://github.com/sathish-dhana/Bath-Bodyworks/blob/465f9958423fce37e94c854aaefdfd802963ba94/pictures/shot-7.png)
+
 
