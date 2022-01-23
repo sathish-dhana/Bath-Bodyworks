@@ -27,7 +27,7 @@ To run, follow these steps:
 
 - Clone my repository `https://github.com/sathish-dhana/Bath-Bodyworks.git`
 - Open that code in your VS code `ProjectFiles/sign_in.html`
-- Open the `sign_in.html.html` on Live server
+- Open the `sign_in.html` on Live server
 - Then you can Navigate through other pages from Sign_In page etc.
 
 ## Creators
