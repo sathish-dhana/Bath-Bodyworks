@@ -1,4 +1,4 @@
-# [Bath & Body Works | Original](https://www.bathandbodyworks.com/)
+# [Bath & Body Works | Clone](https://www.bathandbodyworks.com/)
 <table>
 <tr>
 <td>
